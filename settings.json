@@ -1,0 +1,7 @@
+{
+  "agent": "Alpha",
+  "env": {
+    "MAX_MCP_OUTPUT_TOKENS": 100000
+  },
+  "showThinkingSummaries": true
+}
