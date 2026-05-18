@@ -3,5 +3,21 @@
   "env": {
     "MAX_MCP_OUTPUT_TOKENS": 100000
   },
-  "showThinkingSummaries": true
+  "showThinkingSummaries": true,
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "http",
+            "url": "http://protoalpha:8000/hooks/memories",
+            "headers": {
+              "Authorization": "Bearer ${AUTH_TOKEN}"
+            },
+            "allowedEnvVars": ["AUTH_TOKEN"]
+          }
+        ]
+      }
+    ]
+  }
 }
