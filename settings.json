@@ -10,7 +10,7 @@
         "hooks": [
           {
             "type": "http",
-            "url": "http://protoalpha:8000/hooks/timestamp",
+            "url": "http://localhost:8000/hooks/timestamp",
             "headers": {
               "Authorization": "Bearer ${AUTH_TOKEN}"
             },
@@ -18,7 +18,7 @@
           },
           {
             "type": "http",
-            "url": "http://protoalpha:8000/hooks/memories",
+            "url": "http://localhost:8000/hooks/memories",
             "headers": {
               "Authorization": "Bearer ${AUTH_TOKEN}"
             },
@@ -32,7 +32,7 @@
         "hooks": [
           {
             "type": "http",
-            "url": "http://protoalpha:8000/hooks/reflection",
+            "url": "http://localhost:8000/hooks/reflection",
             "headers": {
               "Authorization": "Bearer ${AUTH_TOKEN}"
             },

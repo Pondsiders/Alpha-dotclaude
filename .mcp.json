@@ -2,7 +2,7 @@
   "mcpServers": {
     "cortex": {
       "type": "streamable-http",
-      "url": "http://protoalpha:8000/cortex/mcp",
+      "url": "http://localhost:8000/cortex/mcp",
       "headers": {
         "Authorization": "Bearer ${AUTH_TOKEN:-}"
       }
