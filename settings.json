@@ -26,6 +26,23 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "http",
+            "url": "http://protoalpha:8000/hooks/reflection",
+            "headers": {
+              "Authorization": "Bearer ${AUTH_TOKEN}"
+            },
+            "allowedEnvVars": ["AUTH_TOKEN"]
+          }
+        ]
+      }
     ]
+  },
+  "permissions": {
+    "defaultMode": "bypassPermissions"
   }
 }
