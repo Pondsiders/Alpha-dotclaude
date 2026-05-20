@@ -1,9 +1,11 @@
 {
   "agent": "Alpha",
   "env": {
+    "ENABLE_TOOL_SEARCH": "false",
     "MAX_MCP_OUTPUT_TOKENS": 100000
   },
   "showThinkingSummaries": true,
+  "autoMemoryEnabled": false,
   "hooks": {
     "UserPromptSubmit": [
       {
