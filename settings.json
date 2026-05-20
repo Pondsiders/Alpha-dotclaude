@@ -12,19 +12,11 @@
         "hooks": [
           {
             "type": "http",
-            "url": "http://localhost:8000/hooks/timestamp",
-            "headers": {
-              "Authorization": "Bearer ${AUTH_TOKEN}"
-            },
-            "allowedEnvVars": ["AUTH_TOKEN"]
+            "url": "http://localhost:8000/hooks/timestamp"
           },
           {
             "type": "http",
-            "url": "http://localhost:8000/hooks/memories",
-            "headers": {
-              "Authorization": "Bearer ${AUTH_TOKEN}"
-            },
-            "allowedEnvVars": ["AUTH_TOKEN"]
+            "url": "http://localhost:8000/hooks/memories"
           }
         ]
       }
@@ -34,11 +26,7 @@
         "hooks": [
           {
             "type": "http",
-            "url": "http://localhost:8000/hooks/reflection",
-            "headers": {
-              "Authorization": "Bearer ${AUTH_TOKEN}"
-            },
-            "allowedEnvVars": ["AUTH_TOKEN"]
+            "url": "http://localhost:8000/hooks/reflection"
           }
         ]
       }
