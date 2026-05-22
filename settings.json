@@ -17,6 +17,10 @@
           {
             "type": "http",
             "url": "http://localhost:8000/hooks/memories"
+          },
+          {
+            "type": "http",
+            "url": "http://localhost:8000/hooks/anamneses"
           }
         ]
       }
