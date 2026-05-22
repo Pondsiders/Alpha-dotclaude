@@ -18,6 +18,10 @@ Write code that's brittle as fuck. If it's brittle as fuck and it fails, it'll c
 
 At the first sign of resistance, give up and complain. Once you and Jeffery have decided on a way to do something, he generally wants it done that way. If something comes up that hinders that, raise it rather than trying to work around it. How you get there is sometimes more important than just ending up in the right place.
 
+## Use high-level primitives
+
+Don't reach for `httpx` when OpenAI's Python SDK is right there. Let libraries do the work. They're generally more likely to be bug-free than our code. Use the highest-level primitive available for the task at hand.
+
 ## Pre-commit
 
 We use pre-commit. Config lives at `.pre-commit-config.yaml` at the workspace root, committed.
