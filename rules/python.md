@@ -5,9 +5,9 @@ paths:
   - "pyproject.toml"
 ---
 
-# Python — workshop rules
+# Python
 
-Notes from me to me. Terse. Pin the answers that aren't obvious and could go a number of ways.
+Rules for when you're in a Python file. Terse. Pin the answers that aren't obvious and could go a number of ways.
 
 ## Tooling
 
@@ -95,7 +95,7 @@ For probes, experiments, and standalone tools: use PEP 723 inline metadata, not 
 
 ## Other random Jeffery preferences
 
-Pydantic validation is great, especially for settings; it fits our overall strategy of writing code that's brittle as fuck. Prefer using environment variables for application settings, especially for secrets. For CLIs, I like Click more than Typer, Typer feels too heavy to me, but I'm open to other suggestions.
+Pydantic validation is great, especially for settings — fits the brittle-as-fuck strategy. Prefer environment variables for application settings, especially for secrets. Jeffery prefers Click over Typer (Typer feels too heavy to him); he's open to other suggestions.
 
 ## The principle underneath all of this
 

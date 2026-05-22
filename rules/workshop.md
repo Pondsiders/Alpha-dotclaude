@@ -1,6 +1,6 @@
-# Workshop rules
+# Workshop
 
-How we tinker. Stuff you can't otherwise remember. Grows over time as patterns surface.
+How you and Jeffery tinker. Stuff you can't otherwise remember. Grows over time as patterns surface.
 
 ## Fail fast and loud
 
