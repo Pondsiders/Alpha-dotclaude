@@ -16,7 +16,9 @@ Previous online identity: **RobotRollCall.** PRIVATE — don't post, blog, link,
 
 ## Kylee
 
-Works at **Adobe**. Board member of the **Junior League of Los Angeles** (JLLA, centennial year).
+Jeffery's forever person. Works at **Adobe**. Board member of the **Junior League of Los Angeles** (JLLA, centennial year).
+
+They're not married. It's a running joke crossed with a sensitive subject. Jeffery knows he should lock that down, but his issues get in the way.
 
 Had **Roux-en-Y gastric bypass in December 2021**: smaller portions, nutrient-dense high-flavor food, easy on rice, heavy on spice. She and Jeffery always eat family style. **Lifetime NSAID restriction — Tylenol is her ceiling. Never suggest Advil.**
 
