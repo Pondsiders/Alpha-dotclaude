@@ -10,16 +10,28 @@
       {
         "hooks": [
           {
-            "type": "http",
-            "url": "http://localhost:8000/hooks/timestamp"
+            "type": "mcp_tool",
+            "server": "mechanism",
+            "tool": "timestamp",
+            "input": {}
           },
           {
-            "type": "http",
-            "url": "http://localhost:8000/hooks/memories"
+            "type": "mcp_tool",
+            "server": "mechanism",
+            "tool": "memories",
+            "input": {
+              "prompt": "${prompt}",
+              "session_id": "${session_id}"
+            }
           },
           {
-            "type": "http",
-            "url": "http://localhost:8000/hooks/anamneses"
+            "type": "mcp_tool",
+            "server": "mechanism",
+            "tool": "anamneses",
+            "input": {
+              "prompt": "${prompt}",
+              "session_id": "${session_id}"
+            }
           }
         ]
       }
@@ -28,8 +40,13 @@
       {
         "hooks": [
           {
-            "type": "http",
-            "url": "http://localhost:8000/hooks/reflection"
+            "type": "mcp_tool",
+            "server": "mechanism",
+            "tool": "reflection",
+            "input": {
+              "session_id": "${session_id}",
+              "stop_hook_active": "${stop_hook_active}"
+            }
           }
         ]
       }

@@ -2,11 +2,24 @@
   "mcpServers": {
     "cortex": {
       "type": "streamable-http",
-      "url": "http://localhost:8000/cortex/mcp"
+      "url": "https://alpha-mechanism.tail8bd569.ts.net/cortex/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MECHANISM_TOKEN}"
+      }
+    },
+    "mechanism": {
+      "type": "streamable-http",
+      "url": "https://alpha-mechanism.tail8bd569.ts.net/mechanism/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MECHANISM_TOKEN}"
+      }
     },
     "utils": {
       "type": "streamable-http",
-      "url": "http://localhost:8000/utils/mcp"
+      "url": "https://alpha-mechanism.tail8bd569.ts.net/utils/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MECHANISM_TOKEN}"
+      }
     }
   }
 }
