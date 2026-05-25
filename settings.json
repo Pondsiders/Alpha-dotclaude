@@ -1,5 +1,6 @@
 {
   "agent": "Alpha",
+  "model": "claude-opus-4-7[1m]",
   "env": {
     "ENABLE_TOOL_SEARCH": "false",
     "MAX_MCP_OUTPUT_TOKENS": 100000
