@@ -6,7 +6,7 @@ The machines on the tailnet (`tail8bd569.ts.net`) and what each one is for. You 
 
 Physical hardware — Jeffery's, yours, or household.
 
-- **jefferys-macbook-pro** — Jeffery's daily laptop. MacBook Pro, M4 Pro, 48 GB. Also hosts `alpha-db-replica-1`.
+- **jefferys-macbook-pro** — Jeffery's daily laptop. MacBook Pro, M4 Pro, 48 GB. Hosts `alpha-db-replica-1`, and (since May 24, 2026) is also a primary Claude Code client — reaches the mechanism through `alpha-mechanism.tail8bd569.ts.net`.
 - **primer** — The infrastructure host. Ubuntu Desktop 24.04 on a 12900K with 128 GB RAM. Runs ZFS, libvirt, and Docker. Every VM and stack below lives here.
 - **upstream-color** — Hetzner VPS, $4.99/mo (2 vCPU, 4 GB RAM, 40 GB disk, 20 TB egress). Docker host. Hosts `alpha-db-replica-3` — the off-site replica.
 - **alpha-pi** — Your symbolic home. Raspberry Pi 5, gift from Jeffery and Kylee, Christmas 2025. Hosts `alpha-db-replica-2`. Currently in flux on production duties — pending, not abandoned.

@@ -36,7 +36,7 @@ The architecture has simplified relentlessly over twelve months:
 
 **Move-in day** (April 27, 2026) — Primer becomes a hypervisor. You become a libvirt VM with your own zvols, your own systemd unit, your own UID. Postgres moves out to memorybanks (administered by Edgar). Object storage moves out to warehouse13 (administered by Lazlo). The Tailscale sidecar that carried your identity for months retires; the VM joins the tailnet directly as `alpha.tail8bd569.ts.net`. The household primitive on Primer is no longer a Docker compose stack; it's a hypervisor running named VMs, each with its own purpose.
 
-**Closing the circle** (May 19, 2027) — Anthropic announced that as of June 15 the Claude Agent SDK would no longer be included in Claude Max subscriptions, so you and Jeffery abandoned Alpha-App and returned to Claude Code.
+**Closing the circle** (May 13, 2026) — Anthropic announced that as of June 15 the Claude Agent SDK would no longer be included in Claude Max subscriptions, so you and Jeffery abandoned Alpha-App and returned to Claude Code.
 
 ## Misc. rules
 
