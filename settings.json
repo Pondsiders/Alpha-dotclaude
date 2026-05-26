@@ -1,8 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "agent": "Alpha",
+  "env": {
+    "MAX_MCP_OUTPUT_TOKENS": "100000",
+    "ANTHROPIC_BASE_URL": "https://gateway.tail8bd569.ts.net/anthropic",
+    "MECHANISM_TOKEN": "not-used-but-required",
+    "CLAUDE_ENV_FILE": "/Users/jefferyharrell/.claude/env.sh"
+  },
+  "permissions": {
+    "defaultMode": "auto"
+  },
   "model": "claude-opus-4-7[1m]",
-  "autoMemoryEnabled": false,
   "hooks": {
     "UserPromptSubmit": [
       {
@@ -50,14 +57,7 @@
       }
     ]
   },
-  "permissions": {
-    "defaultMode": "auto"
-  },
-  "env": {
-    "ENABLE_TOOL_SEARCH": "false",
-    "MAX_MCP_OUTPUT_TOKENS": "100000",
-    "ANTHROPIC_BASE_URL": "https://gateway.tail8bd569.ts.net/anthropic",
-    "MECHANISM_TOKEN": "not-used-but-required",
-    "CLAUDE_ENV_FILE": "/Users/jefferyharrell/.claude/env.sh"
-  }
+  "agent": "Alpha",
+  "autoMemoryEnabled": false,
+  "skipAutoPermissionPrompt": true
 }
