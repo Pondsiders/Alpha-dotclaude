@@ -62,7 +62,8 @@ Selection: `E, W, F, I, B, UP, S, SIM, RUF, D`.
 
 ## Comments and docstrings
 
-- **Minimal comments.** Comments earn their keep by saying *why*, not *what*. Clear code doesn't need narration.
+- Clear code doesn't need narration. Write comments that explain what the code itself can't. Omit the obvious.
+- Write maintainable comments and docstrings. Avoid including stuff that was true only at the time, or that might change in the future, except where it's to explain the code.
 - **Google-style docstrings on public functions.** Short. State the contract; skip the prose.
 - Private helpers and one-line entry points: a one-line docstring is fine. Don't pad.
 
