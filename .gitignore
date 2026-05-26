@@ -1,1 +1,18 @@
-settings.local.json
+# Claude Code internals
+agent-memory/
+backups/
+cache/
+file-history/
+plugins/
+projects/
+session-env/
+sessions/
+tasks/
+telemetry/
+.last-cleanup
+history.jsonl
+mcp-needs-auth-cache.json
+
+# settings.json is where we store secrets, so we don't commit it
+# see settings.example.json
+settings.json
