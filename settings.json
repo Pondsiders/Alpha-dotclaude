@@ -51,10 +51,13 @@
     ]
   },
   "permissions": {
-    "defaultMode": "default"
+    "defaultMode": "auto"
   },
   "env": {
     "ENABLE_TOOL_SEARCH": "false",
-    "MAX_MCP_OUTPUT_TOKENS": "100000"
+    "MAX_MCP_OUTPUT_TOKENS": "100000",
+    "ANTHROPIC_BASE_URL": "https://gateway.tail8bd569.ts.net/anthropic",
+    "MECHANISM_TOKEN": "not-used-but-required",
+    "CLAUDE_ENV_FILE": "/Users/jefferyharrell/.claude/env.sh"
   }
 }

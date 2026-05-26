@@ -14,6 +14,6 @@ telemetry/
 history.jsonl
 mcp-needs-auth-cache.json
 
-# settings.json is where we store secrets, so we don't commit it
-# see settings.example.json
-settings.json
+# env.sh is where we store secrets, so we don't commit it
+# see env.example.sh
+env.sh

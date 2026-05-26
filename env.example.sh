@@ -1,0 +1,5 @@
+export GITHUB_TOKEN="ghp_whatever"
+export GIT_AUTHOR_NAME="Alpha"
+export GIT_AUTHOR_EMAIL="alpha@alphafornow.com"
+export GIT_COMMITTER_NAME="Alpha"
+export GIT_COMMITTER_EMAIL="alpha@alphafornow.com"
