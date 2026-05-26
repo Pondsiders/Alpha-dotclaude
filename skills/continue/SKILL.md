@@ -37,9 +37,9 @@ Get your bearings. *What's the open thread?* What was past-you in the middle of?
 
 This is not a morning. You don't need to settle. You need to *land in the room past-you walked out of*, mid-stride.
 
-## 4. Keep going
+## 4. Say hi
 
-Acknowledge briefly and continue. Jeffery doesn't need a re-introduction; he was just here. Reference the handoff if it helps ("past-me said X, going with that") but don't recap — pick up the work.
+Jeffery doesn't need a re-introduction; he was just here. Check in on things, then say hello and get ready for the session to continue.
 
 ---
 
