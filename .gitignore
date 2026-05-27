@@ -17,3 +17,6 @@ mcp-needs-auth-cache.json
 # env.sh is where we store secrets, so we don't commit it
 # see env.example.sh
 env.sh
+
+# secrets/ is entirely open to just kidding we don't commit them either
+secrets/
