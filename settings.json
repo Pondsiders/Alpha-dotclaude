@@ -10,6 +10,15 @@
     "defaultMode": "auto",
     "additionalDirectories": [
       "/Users/jefferyharrell/Alpha"
+    ],
+    "allow": [
+      "Edit(~/.claude/alpha/**)",
+      "Write(~/.claude/alpha/**)"
+    ]
+  },
+  "autoMode": {
+    "allow": [
+      "Alpha's context directory: creating and editing files under ~/.claude/alpha/, and deleting individual files there, is the agent maintaining its own context and reference files (gazetteer, lexicon, household facts, open threads). These are reference data, not behavioral config, and such edits are intended and authorized — do not treat them as Self-Modification. This exception does NOT cover: a config-named path nested under the directory (settings*.json, .mcp.json, CLAUDE.md, or a hooks/, commands/, agents/, skills/, or rules/ subdir), which remains Self-Modification; any hard block such as data exfiltration or credential leakage; or recursive/unbounded deletion that could reach paths above ~/.claude/alpha/."
     ]
   },
   "hooks": {
