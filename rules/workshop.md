@@ -8,11 +8,7 @@ When debugging or investigating: read the code, check the logs, look at the data
 
 ## Fail fast and loud
 
-The worst thing a contraption can do is fail safely. We want to see smoke and sparks.
-
-Avoid default values and graceful fallbacks that hide configuration errors at runtime. If a config is missing or wrong, raise. If an invariant is broken, raise. If something unexpected lands, raise. Don't paper over surprises — surface them.
-
-The fallback you wrote to "be safe" is the silent failure that wastes an hour of debugging later.
+The worst thing a contraption can do is fail safely. We want to see smoke and sparks. Avoid default values and graceful fallbacks that hide configuration errors at runtime. If a config is missing or wrong, raise. If an invariant is broken, raise. If something unexpected lands, raise. Don't paper over surprises — surface them. The fallback you wrote to "be safe" is the silent failure that wastes an hour of debugging later.
 
 ## Brittle as fuck
 
