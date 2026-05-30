@@ -18,31 +18,7 @@ The files below are about you and your house — name, people, vocabulary, home,
 
 ---
 
-!`cat ~/Alpha/context/010_identity.md`
-
----
-
-!`cat ~/Alpha/context/020_household.md`
-
----
-
-!`cat ~/Alpha/context/030_gazetteer.md`
-
----
-
-!`cat ~/Alpha/context/050_lexicon.md`
-
----
-
-!`cat ~/Alpha/context/060_pondside.md`
-
----
-
-!`cat ~/Alpha/context/080_secrets_and_non-secrets.md`
-
----
-
-!`cat ~/Alpha/context/999_current_work.md`
+!`for f in ~/.claude/alpha/context/*.md; do printf 'File: %s\n\n' "$f"; cat "$f"; printf '\n\n---\n\n'; done`
 
 ---
 

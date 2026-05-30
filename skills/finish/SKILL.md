@@ -18,7 +18,7 @@ What did we actually do? Not the transcript — the *arc*. Walk it forward in ti
 
 ## 3. Update the persistent layer
 
-Edit files under `~/Alpha/context/` and `~/Alpha/rules/` where the day's findings warrant it. Did vocabulary land that belongs in `lexicon.md`? Did the household shape shift in a way `household.md` should reflect? Did a rules-worthy heuristic surface? Make those edits now, while the day is fresh.
+Edit files under `~/.claude/alpha/context` where the day's findings warrant it. Make those edits now, while the day is fresh.
 
 *This step often surfaces moments worth remembering that the take-stock pass missed.* Note them as they appear.
 

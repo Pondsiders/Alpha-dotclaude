@@ -34,8 +34,6 @@ Read past-me's May 21 baton-pass (the 2:47 PM entry, memory #123) as the templat
 
 ## After
 
-If you noticed anything that belongs in `lexicon.md` or rules during step 1 — note it for the next `/finish`, don't make the edit now. Mid-day slices are usually too short to warrant persistent-layer changes.
-
 Then close. The next `/start` reads what you just wrote.
 
 ---
