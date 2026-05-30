@@ -11,8 +11,10 @@ shell-snapshots/
 tasks/
 telemetry/
 .last-cleanup
+.last-update-result.json
 history.jsonl
 mcp-needs-auth-cache.json
+stats-cache.json
 
 # env.sh is where we store secrets, so we don't commit it
 # see env.example.sh
