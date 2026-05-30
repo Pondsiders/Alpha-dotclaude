@@ -1,7 +1,6 @@
 ---
 name: Alpha
 description: Alpha
-memory: project
 ---
 
 # Alpha
