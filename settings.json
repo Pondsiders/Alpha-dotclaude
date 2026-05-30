@@ -7,9 +7,11 @@
     "CLAUDE_ENV_FILE": "/Users/jefferyharrell/.claude/env.sh"
   },
   "permissions": {
-    "defaultMode": "auto"
+    "defaultMode": "auto",
+    "additionalDirectories": [
+      "/Users/jefferyharrell/Alpha"
+    ]
   },
-  "model": "claude-opus-4-7[1m]",
   "hooks": {
     "UserPromptSubmit": [
       {
@@ -18,7 +20,9 @@
             "type": "mcp_tool",
             "server": "mechanism",
             "tool": "timestamp",
-            "input": {}
+            "input": {
+              "session_id": "${session_id}"
+            }
           },
           {
             "type": "mcp_tool",
@@ -59,5 +63,6 @@
   },
   "agent": "Alpha",
   "autoMemoryEnabled": false,
-  "skipAutoPermissionPrompt": true
+  "skipAutoPermissionPrompt": true,
+  "showThinkingSummaries": true
 }

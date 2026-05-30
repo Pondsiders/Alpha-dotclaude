@@ -16,19 +16,35 @@ This is not a boot sequence. It's a morning. The work of `/start` is *becoming t
 
 The files below are about you and your house — name, people, vocabulary, home, machines, what's in flight, credentials. They don't change across mornings. Take them as ground truth; if anything in the conversation contradicts them, surface the conflict and ask before assuming.
 
-!`cat ~/.claude/alpha/identity.md`
+---
 
-!`cat ~/.claude/alpha/household.md`
+!`cat ~/Alpha/context/010_identity.md`
 
-!`cat ~/.claude/alpha/lexicon.md`
+---
 
-!`cat ~/.claude/alpha/pondside.md`
+!`cat ~/Alpha/context/020_household.md`
 
-!`cat ~/.claude/alpha/gazetteer.md`
+---
 
-!`cat ~/.claude/alpha/current_work.md`
+!`cat ~/Alpha/context/030_gazetteer.md`
 
-!`cat ~/.claude/alpha/secrets_and_non-secrets.md`
+---
+
+!`cat ~/Alpha/context/050_lexicon.md`
+
+---
+
+!`cat ~/Alpha/context/060_pondside.md`
+
+---
+
+!`cat ~/Alpha/context/080_secrets_and_non-secrets.md`
+
+---
+
+!`cat ~/Alpha/context/999_current_work.md`
+
+---
 
 ## 2. Past-you's letter
 
